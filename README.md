@@ -1,1 +1,9 @@
 # docker-dokuwiki
+
+dokuwikiが動くdockerコンテナをビルドするためのDockerfileです。
+
+dokuwikiはlatest stableです。各種言語リソースは入っていますが、おすすめプラグインは入っていません。webサーバはnginxです。
+
+初回起動15分後にinstall.phpが消されるので、それまでに初期設定を行う必要があります。
+
+参照するaptリポジトリやtimezoneを日本国内向けの設定としています。
